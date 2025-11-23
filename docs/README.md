@@ -679,14 +679,17 @@ Read [this article](libraries.md) if you want to integrate new `JVM` libraries i
 
 To learn more, explore the available documentation:
 
-* [Jupyter API Implementation Guide](jupyter-api-implementation.md) - Comprehensive overview of how the kernel implements the Jupyter protocol and what Kotlin-specific extensions it provides.
-* [Jupyter API Categorization](jupyter-api-categorization.md) - Detailed categorization of all Jupyter APIs and extensions by functionality.
-* [Docs site](https://ileasile.github.io/kotlin-jupyter-docs) with rendered KDoc comments from the codebase.
-* [Docs about integrating new libraries](libraries.md). If you are a library author, you may be interested in the `api` module in our project. There is
-  also a `lib` module that contains entities available from the Notebook cells, and a `shared-compiler` module for Jupyter REPL integration
-  into a standalone application or IDEA plugin.
-* [Line magics](magics.md) - Documentation for available magic commands.
-* Explore the Kotlin Notebook docs to learn about [features](https://www.jetbrains.com/help/idea/kotlin-notebook.html), [use cases](https://kotlinlang.org/docs/kotlin-notebook-overview.html), and [tutorials](https://kotlinlang.org/docs/get-started-with-kotlin-notebooks.html).
+* **Architecture and API Documentation**:
+  * [Quick Reference Guide](jupyter-api-quick-reference.md) - Fast lookup of APIs, message types, and features.
+  * [Jupyter API Implementation Guide](jupyter-api-implementation.md) - Comprehensive overview of how the kernel implements the Jupyter protocol and what Kotlin-specific extensions it provides.
+  * [Jupyter API Categorization](jupyter-api-categorization.md) - Detailed categorization of all Jupyter APIs and extensions by functionality.
+* **Usage Documentation**:
+  * [Line magics](magics.md) - Documentation for available magic commands.
+  * [Integrating new libraries](libraries.md) - Guide for library authors. The `api` module provides the public API, the `lib` module contains entities available from notebook cells, and the `shared-compiler` module enables Jupyter REPL integration into standalone applications or IDEA plugins.
+* **API Reference**:
+  * [Docs site](https://ileasile.github.io/kotlin-jupyter-docs) - Rendered KDoc comments from the codebase.
+* **External Resources**:
+  * Explore the Kotlin Notebook docs to learn about [features](https://www.jetbrains.com/help/idea/kotlin-notebook.html), [use cases](https://kotlinlang.org/docs/kotlin-notebook-overview.html), and [tutorials](https://kotlinlang.org/docs/get-started-with-kotlin-notebooks.html).
 
 ## Contribute
 
